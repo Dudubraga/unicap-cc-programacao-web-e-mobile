@@ -1,2 +1,1 @@
-# PWM
-Cadeira - Programação Web e Mobile
+# Programação Web e Mobile
