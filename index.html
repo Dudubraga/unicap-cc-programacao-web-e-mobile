@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programação Web e Mobile</title>
     <link rel="icon" href="../Midia/panda.png" type="icon">
 </head>
-
+<style>
+    body {
+        background-color: #03a8f2; /* Cor de fundo azul */
+        text-align: center;
+    }
+    .container {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .title {
+        color: #010101;
+        font-size: 4em;
+        margin-top: 10px;
+    }
+    .panda {
+        width: 300px;
+        height: auto;
+        margin: 10px auto;
+    }
+    .buttons {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .buttons button {
+        background-color: #03a8f2;
+        border-color: #010101;
+        font-size: 1em;
+        padding: 10px 50px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .footer {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon {
+        width: 45px;
+        height: auto;
+        vertical-align: middle;
+    }
+    .note {
+        display: flex;
+        align-items: center;
+    }
+</style>
 <body>
-    <header class="">
-        <h1 style="margin-bottom: 1px; text-size-adjust: auto;">Programação Web e Mobile</h1>
-        <h4 style="margin-top: 1px; margin-bottom: 3px;">Eduardo Costa Braga - 848640</h4>
-        <a href="https://github.com/Dudubraga/PWM" target="_blank">
-            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" 
-            alt="GitHub Badge" width="60" height="20">
-        </a>
-    </header><hr>
-    <div>
-        <h3>Exemplos:</h3>
-        <ol>
-            <li><a href="./Exemplos/exemplo1.html">Tags HTML Básicas</a></li>
-            <li><a href="./Exemplos/exemplo2.html">Tags para Multimídia</a></li>
-            <li><a href="./Exemplos/exemplo3.html">Tags para Formatação</a></li>
-            <li><a href="./Exemplos/exemplo4.html">Tabelas, Listas e Iframes</a></li>
-            <li><a href="./Exemplos/exemplo5.html">Tags para Formulários</a></li>
-            <li><a href="./Exemplos/exemplo6.html">Tags Input, TextArea e Select</a></li>
-            <li><a href="./Exemplos/exemplo7.html">Outras Tags Úteis</a></li>
-        </ol>
+    <div class="container">
+        <h1 class="title">Programação Web e Mobile</h1>
+        <img class="panda" src="Midia/panda.png" alt="Panda">
+        <div class="buttons">
+            <a href="./Exemplos/exemplos.html"><button>Exemplos</button></a>
+            <a href="./Exercicios/exercicios.html"><button>Exercícios</button></a>
+        </div>
+        <div class="footer">
+            <div class="note">
+                <img class="icon" src="Midia/cancao-de-ninar.png" alt="Nota Musical">
+            </div>
+            <h4>EDUARDO COSTA BRAGA<br>RA: 8848640</h4>
+            <div>
+                <a href="https://github.com/Dudubraga/PWM" target="_blank">
+                    <img class="icon" src="Midia/github-logo-redonda.png" alt="GitHub" width="40" height="40">
+                </a>
+            </div>
+        </div>
     </div>
-    <div>
-        <h3>Exercícios:</h3>
-        <ul>
-            <li><a href="./Exercícios/exercicio1.html">Exercício 1</a></li>
-            <!-- <li><a href="./Exercícios/">Exercício 2</a></li>
-            <li><a href="./Exercícios/">Exercício 3</a></li> -->
-        </ul>
-    </div>
-    <footer style="position: fixed; bottom: 0;">
-        <h4>ultimo update: 18/02/25 - 16:16</h4>
-    </footer>
 </body>
 </html>
