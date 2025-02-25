@@ -13,10 +13,97 @@
         </a>
     </nav>
     <div>
-        <p>Em Breve...</p>
+        <h3>Tabelas:</h3>
+        <ul>
+            <li>[table] - define a tabela em si. É composta por um conjunto 
+                de linhas; </li>
+            <li>[tr] - define cada linha, isto é, conjunto de células 
+                dispostas horizontalmente; </li>
+            <li>[td] - define cada célula de uma linha, dentro da qual 
+                podemos colocar a informação desejada; </li>
+            <li>[th] - um “tipo especial” da tag td, usada para identificar 
+                as células que fazem parte do cabeçalho da tabela; </li>
+        </ul>
+        <table border="1">
+            <tr> <td>Aluno</td><td>Nota</td> </tr>
+            <tr> <td>Carlos</td><td>10,0</td> </tr>
+            <tr> <td>Maria</td><td>10,0</td> </tr>
+        </table>
+        <p>
+            Em certas situações, precisamos expandir uma célula para 
+            que a mesma ocupa mais de uma linha ou coluna. Nesses 
+            casos, podemos utilizar o atributo da célula (tag td) 
+            <u>colspan</u> para definir o número de colunas que ela ocupará 
+            ou o atributo <u>rowspan</u> para definir o número de linhas.
+        </p>
+        <table border="1">
+            <tr> <th>Aluno</th><th>Nota</th> </tr>
+            <tr> <td colspan="2">Carlos</td> </tr>
+            <tr> <td>Maria</td><td>10,0</td> </tr>
+        </table> <br>
+        <table border="1">
+            <tr> <th>Aluno</th><th>Nota</th> </tr>
+            <tr> <td rowspan="2">Carlos</td><td>10,0</td> </tr>
+            <tr> <td>10,0</td> </tr>
+        </table>
+        <p>
+            É possível definir um rótulo a aparecer no topo da tabela, 
+            junto à mesma, especificando uma tag <u>caption</u> logo após 
+            abrir a tag table.
+        </p>
+        <table border="1">
+            <caption>Resultado 1º Bimestre</caption>
+            <tr> <th>Aluno</th><th>Nota</th> </tr>
+            <tr> <td>Carlos</td><td>10,0</td> </tr>
+            <tr> <td>Maria</td><td>10,0</td> </tr>
+        </table>
+        <h3>Listas:</h3>
+        <ul>
+            <li>[ul] - Descreve uma lista não ordenada, isto é, que usará 
+                símbolos como marcadores e não números; 
+                <ul>
+                    <li>Tomate;</li>
+                    <li>Arroz;</li>
+                    <li>Feijão.</li>
+                </ul>
+            </li>
+            <li>[ol] - Descreve uma lista ordenada, isto é, que usará números 
+                em ordem crescente para marcar cada item da lista; 
+                <ol>
+                    <li>Tomate;</li>
+                    <li>Arroz;</li>
+                    <li>Feijão.</li>
+                </ol>
+            </li>
+            <li>
+                [li] - Esta tag representa cada um dos itens de uma lista e 
+                é a mesma para ambos os tipos de lista.
+            </li>
+                
+            No caso de listas ordenadas, pode-se utilizar o atributo type da tag 
+            [ol] para definir como os itens da lista devem ser numerados. Type pode 
+            assumir os seguintes valores: <br>
+            <ul>
+                <li> "1" - Serão usados números (comportamento padrão); </li>
+                <li> "A" - Serão usadas letras maiúsculas; </li>
+                <li> "a" - Serão usadas letras minúsculas; </li>
+                <li> "I" - Serão usados algarismos romanos maiúsculos; </li>
+                <li> "i" - Serão usados algarismos romanos minúsculos. </li>
+            </ul>
+        </ul>
+        <h3>iFrames</h3>
+        <p>
+            Um iframe é utilizado quando precisamos exibir o conteúdo de outra 
+            página web dentro de uma página web; <br>
+        </p>
+        <iframe src="https://www.youtube.com/embed/7CfiS_U9V9s" 
+        frameborder="0" allowfullscreen width="450" height="250" ></iframe> <br>
+        <iframe src="https://pwm-jade.vercel.app" frameborder="1" 
+        width="450" height="500"></iframe> <br>
+        
     </div>
-    <footer style="position: fixed; bottom: 0;">
-        <h4>Tabelas, Listas e Iframes - 00/00/25</h4>
+    <footer style="position: relative; bottom: 0;">
+        <h4>Tabelas, Listas e Iframes - 18/02/25</h4>
     </footer>
 </body>
 </html>
