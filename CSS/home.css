@@ -1,0 +1,49 @@
+body {
+    background-color: #03a8f2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: 0;
+    padding: 20px;
+}
+.title {
+    color: #010101;
+    font-size: 3em;
+    margin-top: 10px;
+}
+.panda {
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+}
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttons button {
+    background-color: #03a8f2;
+    border-color: #010101;
+    font-size: 1em;
+    padding: 10px 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 45px;
+    height: auto;
+    vertical-align: middle;
+}
+.note {
+    display: flex;
+    align-items: center;
+}
