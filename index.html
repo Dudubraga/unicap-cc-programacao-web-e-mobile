@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programação Web e Mobile</title>
     <link rel="icon" href="Midias/favicon.ico" type="icon">
     <link rel="stylesheet" href="CSS/home.css">
+    <title>Programação Web e Mobile</title>
 </head>
-
 <body>
-    <div class="caixa"> 
-        <h1 class="titulo">Programação Web e Mobile</h1>
+    <h1>Programação Web e Mobile</h1>
+    <div class="container"> 
         <img class="panda" src="Midias/panda.png" alt="Panda">
-        <div class="botoes">
+        <div class="buttons">
             <a href="./Exemplos/exemplos.html"><button>Exemplos</button></a>
-            <a href="./Exercicios/exercicios.html"><button>Exercícios</button></a>
-        </div>
-        <div class="rodape">
-            <div class="musica">
-                <img class="icon" src="Midias/cancao-de-ninar.png" alt="Nota Musical">
-            </div>
-            <h4>EDUARDO COSTA BRAGA<br>RA: 8848640</h4>
-            <div>
-                <a href="https://github.com/Dudubraga/PWM" target="_blank">
-                    <img class="icon" src="Midias/github-logo-redonda.png" alt="GitHub" width="40" height="40">
-                </a>
-            </div>
+            <a href="./Exercicios/hub-exercicios.html"><button>Exercícios</button></a>
         </div>
     </div>
+    <footer>
+        <img class="icons" src="Midias/nota-musical.png" alt="NotaMusical" onclick="playAudio()">
+        <h4>EDUARDO COSTA BRAGA<br>RA: 8848640</h4>
+        <a href="https://github.com/Dudubraga/PWM" target="_blank">
+            <img class="icons" src="Midias/github-logo-redonda.png" alt="GitHub">
+        </a>
+    </footer>
+    <!-- Add the audio element -->
+    <audio id="myAudio" src="Midias/sound.mp3"></audio>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
 </body>
 </html>
