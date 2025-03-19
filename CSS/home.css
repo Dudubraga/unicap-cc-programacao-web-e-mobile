@@ -34,12 +34,6 @@ h1 {
     height: 500px;
     width: auto;
 }
-.elemento {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 300px;
-}
 .button {
     display: flex;
     justify-content: space-evenly;
@@ -55,6 +49,13 @@ h1 {
     font-family: Gagalin;
     font-size: 30px;
 }
+.elemento {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    z-index: 0;
+}
 .infos {
     position: absolute;
     bottom: 0px;
@@ -63,6 +64,7 @@ h1 {
     display: flex;
     align-items: center;
     font-size: 22px;
+    z-index: 1;
 }
 .icon-git {
     width: 30px;
