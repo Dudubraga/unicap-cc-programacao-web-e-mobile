@@ -1,13 +1,20 @@
+@font-face {
+    font-family: Gagalin;
+    src: url(../Midias/Fonts/Gagalin-Regular.otf);
+    font-weight: bold;
+}
 body {
-    background-color: #03a8f2;
+    background-color: #00b1b0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     height: 90vh;
+    font-family: Gagalin;
 }
 h1 {
-    font-size: 4em;
+    font-size: 80px;
+    margin: 10px;
 }
 .container {
     display: flex;
@@ -16,32 +23,50 @@ h1 {
     align-items: center;
     padding: 10px;
 }
-.panda {
-    height: 300px;
+.phineas-ferb {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 310px;
+    height: 616px;
+}
+.perry {
+    height: 500px;
     width: auto;
 }
-.buttons {
+.elemento {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+}
+.button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .buttons button {
-    background-color: #03a8f2;
+    background-color: #f2964c;
     margin: 10px;
-    padding: 10px 50px;
-    border-radius: 50px;
-    font-size: 1em;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 20px;
     cursor: pointer;
+    font-family: Gagalin;
+    font-size: 30px;
 }
-footer {
+.infos {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    font-size: 22px;
 }
-.icons {
-    height: 45px;
-    width: auto;
+.icon-git {
+    width: 30px;
     vertical-align: middle;
     cursor: pointer;
+    margin: 5px;
 }

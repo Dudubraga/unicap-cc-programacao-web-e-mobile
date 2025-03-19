@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Midias/favicon.ico" type="icon">
+    <link rel="shortcut icon" href="./Midias/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/home.css">
     <title>Programação Web e Mobile</title>
 </head>
 <body>
     <h1>Programação Web e Mobile</h1>
-    <div class="container"> 
-        <img class="panda" src="Midias/panda.png" alt="Panda">
+    <img class="phineas-ferb" src="/Midias/Images/phineas-ferb.png" alt="PhineasFerb">
+    <div class="container">
+        <img class="perry" src="Midias/Images/perry-com-sombra.png" alt="PerryOrnitorrinco" onclick="playAudio()">
         <div class="buttons">
-            <a href="./Exemplos/hub-exemplos.html"><button>Exemplos</button></a>
-            <a href="./Exercicios/hub-exercicios.html"><button>Exercícios</button></a>
+            <!-- <a href="./Exemplos/hub-exemplos.html"><button>Exemplos</button></a> -->
+            <a href="./Exercicios/hub-exercicios.html"><button>EXERCÍCIOS</button></a>
         </div>
     </div>
-    <footer>
-        <img class="icons" src="Midias/nota-musical.png" alt="NotaMusical" onclick="playAudio()">
-        <h4>EDUARDO COSTA BRAGA<br>RA: 8848640</h4>
+    <img class="elemento" src="Midias/Images/elemento-laranja2.png" alt="ElementoLaranja">
+    <div class="infos">
+        <h4>EDUARDO BRAGA</h4>
         <a href="https://github.com/Dudubraga/PWM" target="_blank">
-            <img class="icons" src="Midias/github-logo-redonda.png" alt="GitHub">
+            <img class="icon-git" src="Midias/Images/github-logo-redonda.png" alt="GitHub">
         </a>
-    </footer>
+    </div>
     <!-- JavaScript para Audio na Imagem -->
-    <audio id="myAudio" src="Midias/Discurso-Rocky-Balboa.mp3"></audio>
+    <audio id="myAudio" src="Midias/Audios/PerrySom.mp3"></audio>
     <script>
         function playAudio() {
             var audio = document.getElementById("myAudio");

@@ -1,17 +1,30 @@
-body{
-    background-color: #03a8f2;
+@font-face {
+    font-family: Gagalin;
+    src: url(../Midias/Fonts/Gagalin-Regular.otf);
+    font-weight: bold;
+}
+body {
+    background-color: #00b1b0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 95vh;
 }
-h1{
-    font-size: 2em;
+h1 {
+    font-size: 35px;
+    font-family: Gagalin;
     margin-top: 0px;
 }
-.container{
-    background-color: white;
+.hat {
+    position: absolute;
+    width: 500px;
+    top: 24px;
+    left: 515px;
+}
+.container {
+    background-color: #f2964c;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,15 +32,19 @@ h1{
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-ul{
+ul {
     list-style-type: none;
     padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Gagalin;
+    font-size: 25px;
 }
-li{
+li {
     margin: 10px;
-    font-size: x-large;
-    font-family: serif;
+}
+a {
+    text-decoration: none;
+    color: black;
 }

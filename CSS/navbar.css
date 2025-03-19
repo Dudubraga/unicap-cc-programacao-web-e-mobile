@@ -1,14 +1,30 @@
-.back-arrow {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 20px;
-    height: 20px;
+@font-face {
+    font-family: Gagalin;
+    src: url(../Midias/Fonts/Gagalin-Regular.otf);
+    font-weight: bold;
 }
-.home-button {
+nav {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    margin: 5px;
+    top: 0px;
+    right: 0px;
+    font-family: Gagalin;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px 5px;
+}
+.navegation-icons {
     width: 20px;
     height: 20px;
 }
