@@ -16,12 +16,6 @@ h1 {
     font-family: Gagalin;
     margin-top: 0px;
 }
-.hat {
-    position: absolute;
-    width: 500px;
-    top: 24px;
-    left: 515px;
-}
 .container {
     background-color: #f2964c;
     color: black;
@@ -31,6 +25,19 @@ h1 {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.phineas-ferb {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 310px;
+    height: 616px;
+}
+.elemento {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
 }
 ul {
     list-style-type: none;
