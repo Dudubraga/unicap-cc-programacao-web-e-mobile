@@ -11,13 +11,9 @@
 <body>
     <!-- Navegação -->
     <nav class="navbar">
-        <a href="../index.html">
+        <a href="#"" onclick="goBack()">
             <img src="../Midias/Images/seta-esquerda-contorno.png" alt="Back" class="nav-icons">
         </a>
-        <!-- <ol>
-            <li><a href="../index.html">Home/</a></li>
-            <li><a href="./hub-exercicios.html">Exercícios/</a></li>
-        </ol> -->
         <a href="../index.html">
             <img src="../Midias/Images/casa.png" alt="Home" class="nav-icons">
         </a>
@@ -35,5 +31,11 @@
     <!-- Decoração -->
     <img class="phineas-ferb" src="../Midias/Images/phineas-ferb.png" alt="PhineasFerb">
     <img class="elemento" src="../Midias/Images/elemento-laranja2.png" alt="ElementoLaranja">
+
+    <script> // voltar p pagina anterior
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>

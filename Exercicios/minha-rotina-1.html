@@ -10,13 +10,9 @@
 <body>
     <!-- Navegação -->
     <nav class="navbar">
-        <a href="./hub-exercicios.html">
+        <a href="#"" onclick="goBack()">
             <img src="../Midias/Images/seta-esquerda-contorno.png" alt="Back" class="nav-icons">
         </a>
-        <!-- <ol>
-            <li><a href="../index.html">Home/</a></li>
-            <li><a href="./hub-exercicios.html">Exercícios/</a></li>
-        </ol> -->
         <a href="../index.html">
             <img src="../Midias/Images/casa.png" alt="Home" class="nav-icons">
         </a>
@@ -41,10 +37,15 @@
     <img src="../Midias/Images/foto-perfil.jpg" alt="Foto" width="200">
     <video src="../Midias/Videos/PraiaDoQuintalPhineasFerb(VersaoDublada).mp4" controls height="200"></video>
     <audio src="../Midias/Audios/PhineasAndFerb-ComeHomePerry(Instrumentals).mp3" loop autoplay></audio>
-
     <blockquote>
         <i>"Ué, cadê o Perry?"</i> ~Phineas
     </blockquote>
     <a href="contato.html">Contato</a>
+
+    <script> // voltar p pagina anterior
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>
