@@ -1,0 +1,18 @@
+/* CSS HEX
+--orange-web: #ffa400ff;
+--berkeley-blue: #12355bff;
+--teal: #488286ff;
+--alice-blue: #eaf6ffff;
+--white-smoke: #f4f2f3ff;
+ */
+body {
+    background-color: #12355bff;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #12355bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
