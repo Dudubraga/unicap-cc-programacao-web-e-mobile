@@ -12,7 +12,7 @@
 
 ## 💻 Links de Atividades ou Projetos
 
-- [Quiz C3](https://github.com/Dudubraga/Projeto-Web-Mobile)
-- [Portfólio Pessoal Web](https://github.com/Dudubraga/Portifolio-Web)
-- [Bicudinho's ToDo](https://github.com/Dudubraga/ToDo-PWM)
-- [Portfólio Pessoal Mobile](https://github.com/Dudubraga/Portfolio-Mobile)
+- [Quiz C3](https://github.com/Dudubraga/unicap-cc-proj-quiz-c3)
+- [Portfólio Pessoal Web](https://github.com/Dudubraga/unicap-cc-proj-portfolio-web)
+- [Bicudinho's ToDo](https://github.com/Dudubraga/unicap-cc-proj-to-do)
+- [Portfólio Pessoal Mobile](https://github.com/Dudubraga/unicap-cc-proj-portfolio-mobile)
