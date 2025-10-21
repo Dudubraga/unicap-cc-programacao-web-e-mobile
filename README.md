@@ -14,5 +14,5 @@
 
 - [Quiz C3](https://github.com/Dudubraga/unicap-cc-proj-quiz-c3)
 - [Portfólio Pessoal Web](https://github.com/Dudubraga/unicap-cc-proj-portfolio-web)
-- [Bicudinho's ToDo](https://github.com/Dudubraga/unicap-cc-proj-to-do)
+- [Bicudinho's ToDo](https://github.com/Dudubraga/unicap-cc-proj-bicudinhos-to-do)
 - [Portfólio Pessoal Mobile](https://github.com/Dudubraga/unicap-cc-proj-portfolio-mobile)
