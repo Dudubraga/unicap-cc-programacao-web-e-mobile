@@ -1,3 +1,18 @@
-# Programação Web e Mobile
+# 📚 Programação Web e Mobile
+> Repositório dedicado às anotações, exercícios e códigos de prática da disciplina de Programação Web e Mobile.
+
+- **Instituição:** UNICAP
+- **Professor:** Marcio Bueno
+- **Período:** 2024.1
+- **Visão Geral:** Introdução de conceitos fundamentais do desenvolvimento de aplicações para plataformas web e mobile. Desde a estruturação de páginas com HTML e estilização com CSS até a criação de aplicações móveis híbridas com React Native.
 
 ![image](https://github.com/user-attachments/assets/5722a89b-564f-4348-aa8b-21fd3be94bb5)
+
+---
+
+## 💻 Links de Atividades ou Projetos
+
+- [Quiz C3](https://github.com/Dudubraga/Projeto-Web-Mobile)
+- [Portfólio Pessoal Web](https://github.com/Dudubraga/Portifolio-Web)
+- [Bicudinho's ToDo](https://github.com/Dudubraga/ToDo-PWM)
+- [Portfólio Pessoal Mobile](https://github.com/Dudubraga/Portfolio-Mobile)
